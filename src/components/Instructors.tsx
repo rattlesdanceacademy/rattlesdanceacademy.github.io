@@ -19,7 +19,7 @@ const instructorsData: Instructor[] = [
     teachingExperience: "5 years of teaching",
     description: "\"The King of Pop's disciple\" - Master choreographer who brings MJ's legendary moves to life with two decades of excellence.",
     specialties: ["Michael Jackson Choreography", "Moonwalk Mastery", "Thriller Routines", "Smooth Criminal"],
-    color: "from-gold to-black"
+    color: "from-red-500 to-purple-600"
   },
   {
     name: "Kevin",

@@ -30,14 +30,27 @@ const Instagram: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-3 gap-4 mb-8">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
-              <div
-                key={i}
-                className="aspect-square bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center hover:scale-105 transition-transform duration-200"
-              >
-                <span className="text-4xl">💃</span>
-              </div>
-            ))}
+           <div className="aspect-square bg-black rounded-lg flex items-center justify-center overflow-hidden">
+    <iframe
+      width="100%"
+      height="100%"
+      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+      title="Dance Video"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      className="w-full h-full"
+    ></iframe>
+  </div>
+  {/* Other grid items */}
+  {[2, 3, 4, 5, 6].map((i) => (
+    <div
+      key={i}
+      className="aspect-square bg-gradient-to-br from-purple-100 to-pink-100 rounded-lg flex items-center justify-center hover:scale-105 transition-transform duration-200"
+    >
+      <span className="text-4xl"></span>
+    </div>
+  ))}
           </div>
 
           <a
