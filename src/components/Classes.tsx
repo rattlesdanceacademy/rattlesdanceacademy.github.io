@@ -11,46 +11,46 @@ interface ClassCard {
 
 const classData: ClassCard[] = [
   {
-    title: "Tiny Feet, Big Moves",
+    title: "Little Moonwalkers",
     ageGroup: "3–6 Years",
-    description: "Fun-filled dance sessions designed for our youngest dancers to explore movement and rhythm.",
-    features: ["Basic movements", "Music appreciation", "Creative expression"],
-    color: "from-pink-400 to-red-400"
-  },
-  {
-    title: "Kids Batch",
-    ageGroup: "7–12 Years",
-    description: "Structured dance training with age-appropriate choreography and technique building.",
-    features: ["Hip-hop basics", "Classical foundation", "Performance skills"],
-    color: "from-blue-400 to-purple-400"
-  },
-  {
-    title: "Teenagers Batch",
-    ageGroup: "13–18 Years",
-    description: "Dynamic dance styles focusing on contemporary trends and personal expression.",
-    features: ["Modern choreography", "Street dance", "Competition prep"],
-    color: "from-green-400 to-teal-400"
-  },
-  {
-    title: "Adult Batch",
-    ageGroup: "19+ Years",
-    description: "Professional dance training for adults looking to pursue their passion at any age.",
-    features: ["Advanced techniques", "Multiple styles", "Flexible timings"],
-    color: "from-yellow-400 to-orange-400"
-  },
-  {
-    title: "Groove Fit & Yoga",
-    ageGroup: "All Ages",
-    description: "Combine fitness with dance and mindfulness through our unique groove and yoga sessions.",
-    features: ["Cardio dance", "Flexibility training", "Mind-body connection"],
+    description: "\"Rock with You\" - Fun sessions for tiny dancers to explore rhythm like the King of Pop.",
+    features: ["Basic moonwalk steps", "MJ music appreciation", "Thriller gestures"],
     color: "from-purple-400 to-pink-400"
   },
   {
-    title: "Classical & Contemporary",
+    title: "Beat It Kids",
+    ageGroup: "7–12 Years",
+    description: "\"Don't Stop 'Til You Get Enough\" - Structured training with legendary choreography.",
+    features: ["Smooth Criminal moves", "Anti-gravity lean", "Jackson 5 classics"],
+    color: "from-red-400 to-yellow-400"
+  },
+  {
+    title: "Thriller Teens",
+    ageGroup: "13–18 Years",
+    description: "\"Billie Jean\" vibes - Master the iconic moves that made history.",
+    features: ["Full Thriller routine", "Moonwalk mastery", "Stage presence"],
+    color: "from-black to-red-500"
+  },
+  {
+    title: "Smooth Criminal Adults",
+    ageGroup: "19+ Years",
+    description: "\"Man in the Mirror\" - Transform yourself with professional MJ choreography.",
+    features: ["Advanced techniques", "Performance artistry", "Legend's legacy"],
+    color: "from-gold to-black"
+  },
+  {
+    title: "Dance Legends Fusion",
+    ageGroup: "All Ages",
+    description: "\"We Are the World\" - Tribute to all dance legends from MJ to Martha Graham.",
+    features: ["Multi-legend styles", "Historical choreography", "Cultural fusion"],
+    color: "from-rainbow to-gold"
+  },
+  {
+    title: "King of Pop Classics",
     ageGroup: "10+ Years",
-    description: "Traditional and modern dance forms taught by experienced classical dance masters.",
-    features: ["Bharatanatyam", "Contemporary fusion", "Cultural appreciation"],
-    color: "from-indigo-400 to-blue-400"
+    description: "\"Remember the Time\" - Master the timeless moves of the greatest entertainer.",
+    features: ["Iconic music videos", "Signature spins", "Legendary performances"],
+    color: "from-silver to-gold"
   }
 ];
 
@@ -89,12 +89,15 @@ const Classes: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            Dance Classes
+            🕺 Legendary Dance Programs 🕺
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the perfect dance program for your age and skill level. 
-            From tiny tots to adults, we have something special for everyone.
+            "It don't matter if you're black or white" - Everyone can learn from the legends! 
+            Master the moves that changed the world forever.
           </p>
+          <div className="mt-4 text-lg text-gray-700 font-semibold">
+            ✨ Inspired by Michael Jackson & Dance Legends ✨
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

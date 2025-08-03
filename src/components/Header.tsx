@@ -48,14 +48,14 @@ const Header: React.FC = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            {['Classes', 'Instructors', 'Gallery', 'Contact'].map((item) => (
+            {['Classes', 'Instructors', 'Gallery', 'Registration', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
                 className={`font-medium transition-all duration-300 hover:scale-105 ${
                   isScrolled 
-                    ? 'text-gray-700 hover:text-yellow-500' 
-                    : 'text-white hover:text-yellow-300'
+                    ? 'text-gray-700 hover:text-red-500' 
+                    : 'text-white hover:text-yellow-400'
                 }`}
               >
                 {item}
@@ -79,11 +79,11 @@ const Header: React.FC = () => {
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
           <div className="md:hidden bg-white/95 backdrop-blur-md rounded-lg mt-2 p-4 shadow-lg">
-            {['Classes', 'Instructors', 'Gallery', 'Contact'].map((item) => (
+            {['Classes', 'Instructors', 'Gallery', 'Registration', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
-                className="block w-full text-left py-3 px-4 text-gray-700 hover:text-yellow-500 hover:bg-gray-50 rounded-lg transition-all duration-200"
+                className="block w-full text-left py-3 px-4 text-gray-700 hover:text-red-500 hover:bg-gray-50 rounded-lg transition-all duration-200"
               >
                 {item}
               </button>

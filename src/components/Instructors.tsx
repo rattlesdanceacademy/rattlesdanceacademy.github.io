@@ -14,21 +14,21 @@ interface Instructor {
 const instructorsData: Instructor[] = [
   {
     name: "Yuvaraj Madhan",
-    title: "Lead Dancer & Choreographer",
+    title: "🎭 Master of Moonwalk & Lead Choreographer",
     experience: "20 years of performing",
     teachingExperience: "5 years of teaching",
-    description: "Master choreographer with two decades of dance excellence, bringing passion and precision to every performance and class.",
-    specialties: ["Contemporary Dance", "Hip-Hop", "Bollywood", "Classical Fusion"],
-    color: "from-yellow-400 to-orange-400"
+    description: "\"The King of Pop's disciple\" - Master choreographer who brings MJ's legendary moves to life with two decades of excellence.",
+    specialties: ["Michael Jackson Choreography", "Moonwalk Mastery", "Thriller Routines", "Smooth Criminal"],
+    color: "from-gold to-black"
   },
   {
     name: "Kevin",
-    title: "Dance Instructor & Intern",
+    title: "🌟 Rising Star & Dance Legend Apprentice",
     experience: "10 years of practicing",
     teachingExperience: "Teaching Intern",
-    description: "Dedicated dance enthusiast with a decade of experience, passionate about sharing the joy of movement with students of all ages.",
-    specialties: ["Street Dance", "Modern Dance", "Youth Programs", "Beginner Classes"],
-    color: "from-blue-400 to-purple-400"
+    description: "\"Beat It\" enthusiast with a decade of dedication, channeling the spirit of dance legends into every lesson.",
+    specialties: ["Beat It Choreography", "Anti-Gravity Lean", "Youth MJ Programs", "Billie Jean Steps"],
+    color: "from-red-500 to-purple-600"
   }
 ];
 
@@ -67,12 +67,15 @@ const Instructors: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            Meet Our Instructors
+            🎤 Meet Our Legend Masters 🎤
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Learn from passionate professionals who bring years of experience and 
-            dedication to help you achieve your dance dreams.
+            "Who's Bad?" - Our instructors! Learn from passionate professionals who've mastered 
+            the legendary moves and will help you "Beat It" on the dance floor.
           </p>
+          <div className="mt-4 text-lg font-semibold text-gray-700">
+            🕺 "Just Beat It, Beat It" - Master the Moves! 🕺
+          </div>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
