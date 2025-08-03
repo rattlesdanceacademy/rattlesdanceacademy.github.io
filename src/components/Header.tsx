@@ -35,7 +35,11 @@ const Header: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="w-12 h-12 lg:w-16 lg:h-16 bg-yellow-400 rounded-full flex items-center justify-center">
-              <span className="text-gray-800 font-bold text-lg lg:text-xl">RDA</span>
+              <img
+                src="/Logo.jpg"
+                alt="Rattles Dance Academy Logo"
+                className="w-10 h-10 lg:w-14 lg:h-14 object-contain rounded-full"
+              />
             </div>
             <div className="ml-3">
               <h1 className={`font-bold text-lg lg:text-xl transition-colors duration-300 ${
